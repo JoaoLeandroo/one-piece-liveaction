@@ -15,12 +15,8 @@ module.exports = {
       colors: {
         'header-color': '#150094',
         'body-color': '#000532',
+        'li-fixo': '#c5cae9'
       },
-      width: {
-        'padrao': '1280px',
-        'padrao-large': '1440px',
-        'full-large': '1920px', 
-      }
     },
   },
   plugins: [],
