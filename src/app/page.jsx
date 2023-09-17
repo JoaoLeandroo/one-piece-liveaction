@@ -14,12 +14,6 @@ export default function Home() {
           
           <p className="text-white mt-3 text-lg font-semibold">Confira o trailer oficial</p>
 
-          <button className="mt-2 transition-all duration-300 ease-in hover:scale-125 rounded-full animate-pulse">
-            <AiOutlinePlayCircle
-              size={50}
-              color="white"
-            />
-          </button>
           <ModalPlay button={<AiOutlinePlayCircle size={50} color="white"/>}/>
         </div>
         <div className="w-50%">

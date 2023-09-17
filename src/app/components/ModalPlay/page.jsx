@@ -21,43 +21,35 @@ export default function ModalPlay(props) {
     setSize(newSize)
     onOpen()
   }
-  const tamanho = 'xl'
+  const tamanho = ''
 
   return (
     <>
       {
-        <Button
-        onClick={() => handleSizeClick(tamanho)}
-        key={size}
-        m={4}
-        color={'white'}
-        background={'blue.900'}
-        >
-            {props.button}
-        </Button>
+        <div 
+        className="mt-2 transition-all duration-300 ease-in hover:scale-125 rounded-full animate-pulse cursor-pointer"
+        onClick={() => handleSizeClick(tamanho)}>
+          {props.button}
+        </div>
       }
 
       <Modal onClose={onClose} size={size} isOpen={isOpen}>
         <ModalOverlay />
-        <ModalContent h="400px" p={6}>
-          <ModalCloseButton />
+        <ModalContent h="500px" w="800px" p={1} bg={'blackAlpha.400'}>
+          <ModalCloseButton bg={'red.500'} color={'white'}/>
           <ModalBody>
-            <div className='h-[300px]'>
+            <div className='h-full'>
               {
                 <iframe 
-                className='w-full h-full'
+                className='w-full h-full rounded-xl'
                 src="https://www.youtube.com/embed/YC8SLpnxsL4?si=PcNmWbxRRYOoUvUy" 
-                title="YouTube video player" 
+                title="Trailer LiveAction One Piece - Oficial" 
                 frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowfullscreen>
                 </iframe>
               }
             </div>
           </ModalBody>
-          <ModalFooter>
-            <Button onClick={onClose}>Close</Button>
-          </ModalFooter>
         </ModalContent>
       </Modal>
     </>
