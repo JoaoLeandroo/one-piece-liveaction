@@ -1,6 +1,7 @@
 import './globals.css'
 import { Roboto } from 'next/font/google'
 import { Header } from './components/Header/page'
+import { Footer } from './components/Footer/page'
 import { ChakraProvider } from '@chakra-ui/react'
 
 const roboto = Roboto({ subsets: ['latin'], weight: [
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <ChakraProvider>
           <Header/>  
           {children}
+          <Footer/>
         </ChakraProvider>
       </body>
     </html>

@@ -25,7 +25,37 @@ export default function Home() {
           />
         </div>
       </section>
-      <section>
+      <section className="w-full flex items-center justify-center mt-8">
+        <div className="w-[50%] flex justify-center flex-col">
+          <div className="w-full flex items-center justify-center">
+          <Image 
+          className="w-[50%]"
+          src="/netflix-logo.png"
+          width={500}
+          height={200}
+          />
+          </div>
+
+          <h2 className="text-white font-bold text-3xl text-center mb-2">One Piece e a Netflix</h2>
+          <p className="text-white font-semibold text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Obcaecati aperiam reprehenderit animi illo facilis. 
+            Sit eum quod corrupti quas? Provident architecto excepturi voluptates autem fugiat. 
+            Ab ipsum sapiente reprehenderit quam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Obcaecati aperiam reprehenderit animi illo facilis. 
+            Sit eum quod corrupti quas? Provident architecto excepturi voluptates autem fugiat. 
+            Ab ipsum sapiente reprehenderit quam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Obcaecati aperiam reprehenderit animi illo facilis. 
+            Sit eum quod corrupti quas? Provident architecto excepturi voluptates autem fugiat. 
+            Ab ipsum sapiente reprehenderit quam! Ab ipsum sapiente reprehenderit quam!
+            Obcaecati aperiam reprehenderit Ab ipsum sapiente reprehenderit quam!
+            Obcaecati aperiam reprehenderit animi illo facilis. 
+            Sit eum quod corrupti quas? Provident architecto excepturi voluptates autem fugiat. 
+            Ab ipsum sapiente reprehenderit quam!
+          </p>
+        </div>
 
       </section>
     </main>
