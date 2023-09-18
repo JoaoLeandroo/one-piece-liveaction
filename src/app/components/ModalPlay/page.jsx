@@ -26,11 +26,11 @@ export default function ModalPlay(props) {
   return (
     <>
       {
-        <div 
+        <button 
         className="mt-2 transition-all duration-300 ease-in hover:scale-125 rounded-full animate-pulse cursor-pointer"
         onClick={() => handleSizeClick(tamanho)}>
           {props.button}
-        </div>
+        </button>
       }
 
       <Modal onClose={onClose} size={size} isOpen={isOpen}>
