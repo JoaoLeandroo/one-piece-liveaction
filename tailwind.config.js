@@ -23,6 +23,9 @@ module.exports = {
         'max_1024': {'max': '1024px'},
         'max_1280': {'max': '1280px'},
         'max_1536': {'max': '1536px'},
+      },
+      boxShadow: {
+        'shadowCard': '7px 7px 7px #000000'
       }
     },
   },
