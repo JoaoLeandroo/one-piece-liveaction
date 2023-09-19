@@ -15,7 +15,7 @@ export const Header = () => {
             </Link>
 
             <nav>
-                <ul className="flex gap-3 font-semibold">
+                <ul className="flex gap-3 font-medium">
                     <li>
                         <Link className="text-xl text-li-fixo transition-all duration-300 ease-in-out hover:text-white hover:underline underline-offset-8" href={'../pages/episodes'}>
                             Episodios

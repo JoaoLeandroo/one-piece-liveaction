@@ -1,20 +1,20 @@
 import Image from "next/image"
 
-export default function CardEpisodes() {
+export default function CardEpisodes(props) {
     return(
-        <section className="w-96 bg-red-600 rounded-md shadow-shadowCard">
-            <div className="w-full bg-blue-700 p-2 rounded-t-md">
-                <h2 className="text-center text-white font-semibold">Titulo Episodio</h2>
+        <section className="w-96 max-h-[400px] bg-card-transparent rounded-md shadow-shadowCard">
+            <div className="w-full p-2 rounded-t-md">
+                <h2 className="text-center text-white font-semibold text-lg">{props.tittleEp}</h2>
             </div>
             <Image
-            className="w-full bg-cover"
+            className="w-[95%] m-auto rounded-lg bg-cover"
             src="/post-op.jpg"
             width={300}
             height={300}
             />
             <div className="w-full p-2">
-                <p className="text-white text-lg font-semibold text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis est expedita autem ullam exercitationem qui quibusdam deleniti, itaque incidunt debitis, sit totam sequi velit sint ea, id beatae adipisci voluptatibus!
+                <p className="text-white font-medium text-center">
+                    {props.description}
                 </p>
             </div>
         </section>

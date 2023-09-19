@@ -15,7 +15,8 @@ module.exports = {
       colors: {
         'header-color': '#150094',
         'body-color': '#000532',
-        'li-fixo': '#c5cae9'
+        'li-fixo': '#c5cae9',
+        'card-transparent': 'rgba(55, 0, 255, 0.219)'
       },
       screens: {
         'max_640': {'max': '640px'},
