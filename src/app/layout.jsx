@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={`${roboto.className} bg-body-color max-w-[1440px] w-full min-h-screen m-auto`}>
+      <body className={`${roboto.className} bg-body-color max-w-[1440px] w-full min-h-screen m-auto relative`}>
         <ChakraProvider>
           <Header/>  
           {children}
