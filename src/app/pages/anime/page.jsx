@@ -1,5 +1,11 @@
 import Image from "next/image"
 
+export const metadata = {
+    title: 'One Piece - Anime',
+    description: 'Conheça um pouco sobre a história do anime de One Piece',
+  }
+  
+
 export default function Anime() {
     return(
         <main className="w-full min-h-screen flex flex-col items-center mt-10">

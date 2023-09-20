@@ -1,5 +1,11 @@
 import Image from "next/image"
 
+export const metadata = {
+    title: 'One Piece - Personagens / Atores',
+    description: 'Conheça os atores que interpretam os personagens do LiveAction',
+  }
+  
+
 export default function Characters() {
     return(
         <main className="w-full min-h-screen flex flex-col items-center mt-10">

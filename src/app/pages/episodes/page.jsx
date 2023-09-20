@@ -1,5 +1,11 @@
 import CardEpisodes from "@/app/components/CardEpisodes/page"
 
+export const metadata = {
+    title: 'One Piece - Episodios',
+    description: 'Confira a lista de episodios do LiveAction!',
+  }
+  
+
 export default function Episodes() {
     return(
         <main className="min-h-screen max-w-[1024px] w-full m-auto p-8 flex flex-wrap justify-center gap-8 mt-5">
