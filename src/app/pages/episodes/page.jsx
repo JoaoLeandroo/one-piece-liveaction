@@ -1,3 +1,5 @@
+"use client"
+
 import CardEpisodes from "@/app/components/CardEpisodes/page"
 
 export const metadata = {
