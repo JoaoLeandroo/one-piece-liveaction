@@ -7,7 +7,7 @@ export default function Home() {
   
 
   return (
-    <main>
+    <main className="min-h-screen">
       <section className="w-full flex mt-28 max_1024:flex-col-reverse max_1024:items-center max_1024:gap-2 max_1024:p-3">
         <div className="w-[50%] flex items-center justify-center flex-col">
           <h1 className="text-white text-3xl font-semibold text-center">One Piece <br /> <span className="text-6xl">LiveAction</span></h1>
