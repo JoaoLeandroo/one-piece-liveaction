@@ -12,7 +12,7 @@ const roboto = Roboto({ subsets: ['latin'], weight: [
 
 export const metadata = {
   title: 'One Piece - LiveAction',
-  description: 'Venha descobrir as maravilhas do LiveAction de One Piece!',
+  description: 'Venha descobrir as maravilhas do LiveAction de One Piece',
 }
 
 export default function RootLayout({ children }) {
