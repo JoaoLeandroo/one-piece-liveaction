@@ -36,7 +36,7 @@ export default function Home() {
         />
 
         <div className="mt-4 w-[70%] m-auto p-4 max_1024:w-[95%]">
-          <p className="text-white font-semibold text-xl max_1024:text-center">
+          <p className="text-white font-medium text-xl max_1024:text-center">
           One Piece é uma série live-action baseada no mangá de mesmo nome, criada por Eiichiro Oda. A série é produzida pela Netflix em parceria com a Shueisha, editora do mangá. <br /> <br />
 
           A primeira temporada da série, que estreou em agosto de 2023, adaptou o arco East Blue do mangá, que apresenta os principais personagens da série, incluindo Monkey D. Luffy, Nami, Zoro, Usopp e Sanji. <br /> <br />
