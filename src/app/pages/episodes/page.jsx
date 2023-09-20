@@ -1,12 +1,4 @@
-"use client"
-
 import CardEpisodes from "@/app/components/CardEpisodes/page"
-
-export const metadata = {
-    title: 'One Piece - Episodios',
-    description: 'Confira a lista de episodios do LiveAction!',
-  }
-  
 
 export default function Episodes() {
     return(
