@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import './globals.css'
 import { Roboto } from 'next/font/google'

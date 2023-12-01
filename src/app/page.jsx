@@ -1,12 +1,8 @@
-'use client'
-
 import Image from "next/image"
 import { AiOutlinePlayCircle } from 'react-icons/ai'
 import ModalPlay from "./components/ModalPlay/page"
 
 export default function Home() {
-
-  
 
   return (
     <main className="min-h-screen">
