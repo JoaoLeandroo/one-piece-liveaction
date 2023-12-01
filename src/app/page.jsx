@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image"
 import { AiOutlinePlayCircle } from 'react-icons/ai'
 import ModalPlay from "./components/ModalPlay/page"
