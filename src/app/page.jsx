@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { AiOutlinePlayCircle } from 'react-icons/ai'
-import ModalPlay from "./components/ModalPlay/page"
+import ModalPlay from "./components/ModalPlay/ModalPlay"
 
 export default function Home() {
 

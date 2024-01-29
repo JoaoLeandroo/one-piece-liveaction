@@ -1,9 +1,7 @@
-"use client"
-
 import './globals.css'
 import { Roboto } from 'next/font/google'
-import { Header } from './components/Header/page'
-import { Footer } from './components/Footer/page'
+import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
 import { ChakraProvider } from '@chakra-ui/react'
 
 const roboto = Roboto({ subsets: ['latin'], weight: [

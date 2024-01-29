@@ -1,4 +1,4 @@
-import CardEpisodes from "@/app/components/CardEpisodes/page"
+import CardEpisodes from "@/app/components/CardEpisodes/CardEpisodes"
 
 export default function Episodes() {
     return(
